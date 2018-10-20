@@ -1,0 +1,258 @@
+*{
+	margin:0;
+	padding:0;
+}
+.icon{
+	width: 300px;
+	padding: 0 600px;
+}
+#Favorite img{
+	
+	float:right;
+	padding: 5px;
+}
+#Favorite{
+	background-color:#333;
+	color:#fff;
+}
+#Favorite a{
+	color:#fff;
+	text-decoration: none;
+	font-size:18px;
+	padding-right:15px;
+}
+#Favorite a:link, #Favorite a:visited {
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#Favorite a:hover, #Favorite a:active {
+    background-color: gray;
+}
+#Menu{
+	background-color:#333;
+	color:#fff;
+}
+
+#Menu ul{
+	margin-left: 200px;
+	padding:0;
+	list-style: none;
+}
+
+#Menu li{
+	display:inline;
+}
+
+#Menu a{
+	color:#fff;
+	text-decoration: none;
+	font-size:18px;
+	padding-right:15px;
+}
+#Menu a:link, #Menu a:visited {
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+#Menu a:hover, #Menu a:active {
+    background-color: gray;
+}
+@keyframes slider {
+
+0% {
+	left: 0;
+}
+
+20% {
+	left: -15%;
+}
+
+25% {
+	left: -30%;
+}
+
+45% {
+        left: -45%;
+ 
+}
+
+50% {
+        left: -60%;
+
+}
+
+70% {
+	left: -75%;
+}
+
+75% {
+	left: -90%;
+}
+
+100% {
+	left: -100%;
+}
+
+}
+
+#slider {
+    width:100%;
+	overflow: hidden;
+}
+
+#slider figure img {
+	width: 10%;
+	float: left;
+}
+
+#slider figure {
+	position: relative;
+	width: 250%;
+	margin: 0;
+	left: 0;
+	text-align: left;
+	font-size: 0;
+	animation: 20s slider infinite; 
+
+}
+.big_links{
+ width:50%; 
+ background-color:white;
+	}
+.big_links img{
+	
+	object-fit: cover;
+}
+#nouaColectie{
+	float: left;
+	width: 100%;
+	height: 25%;
+	
+}
+#nouaColectie img{
+	margin-right:10%;
+	margin-top:5%;
+	margin-left:10%;
+	object-position: 0 25%;
+    width:80%;
+}
+#sales{
+	float: left;
+	width: 100%;
+	height: 25%;
+	
+}
+#sales img{
+	margin-right:10%;
+	margin-top:5%;
+	margin-left:10%;
+	object-position: 0 25%;
+    width:80%;
+}
+#camasi{
+	float: left;
+	height:25%;
+	width:50%;
+}
+#camasi img{
+	margin-right:10%;
+	margin-left:10%;
+	margin-top:10%;
+    width:80%;
+	object-position: 0 0%;
+}
+#pantaloni{
+	float: left;
+	height:25%;
+	width:50%;
+}
+#pantaloni img{
+	margin-right:10%;
+	margin-left:10%;
+	margin-top:10%;
+    width:80%;
+	object-position: 0 0%;
+}
+#bluze{
+	float: left;
+	width: 50%;
+	height: 50%;
+	
+}
+#bluze img{
+	margin-right:10%;
+	margin-top:10%;
+	margin-left:10%;
+	object-position: 0 25%;
+    width:80%;
+}
+#rochii{
+	float: left;
+	height:50%;
+	width:50%;
+}
+#rochii img{
+	margin-right:10%;
+	margin-left:10%;
+	margin-top:10%;
+    width:80%;
+	object-position: 0 0%;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#Footer{
+	background-color:#333;
+	color:#fff;  	
+}
+
+#Footer ul{
+	margin-left: 200px;
+	padding:0;
+	list-style: none;
+}
+
+
+#Footer li{
+	display:block;
+}
+.columns button{
+	background-color: #555555;
+	font-size: 50px;
+}
+#Footer a{
+	color:#fff;
+	text-decoration: none;
+	font-size:18px;
+	padding-right:15px;
+}
+#Footer a:link, #Footer a:visited {
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+#Footer a:hover, #Footer a:active {
+    background-color: gray;
+}
+
+.columns ul{
+    width:33%;	
+	height:100%;
+	float:left;
+}
